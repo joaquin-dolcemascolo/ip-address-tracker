@@ -1,0 +1,25 @@
+.search-box {
+    border-radius: .5rem;
+    overflow: hidden;
+    width: fit-content;
+    margin: 2rem auto;
+    cursor: text;
+    background: white;
+
+    &__input {
+        min-width: 25rem;
+        margin-inline: 1rem;
+        border: none;
+        outline: none;
+        background: none;
+    }
+
+    &__button {
+        height: 3rem;
+        width: 3rem;
+        color: white;
+        background: black;
+        border: none;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,15 @@
+.app-container {
+
+    &__header {
+        max-height: 14rem;
+        padding-top: 2rem;
+        background: center no-repeat url('/src/assets/pattern-bg.png');
+        background-size: cover;
+    }
+    
+    &__title {
+        margin: auto;
+        width: fit-content;
+        color: white;
+    }
+}
